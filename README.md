@@ -40,6 +40,92 @@ The plots show how the best training fitness changes as PSO evaluates more candi
 
 </details>
 
+## Coursework results
+
+All experiments use ten seeds (0-9). Values in the tables are mean ± sample standard
+deviation (percentage points). The baseline is `alpha = 0.7298`,
+`beta = gamma = 1.496`, `delta = 0`, `epsilon = 1`, three informants,
+bounds `[-3, 3]`, clipping, and training-accuracy fitness.
+
+### Table 1: Evaluation budget
+
+| Budget | Swarm × generations | Train accuracy | Test accuracy | Test F1 |
+|-------:|--------------------:|---------------:|--------------:|--------:|
+| 500 | 10 × 50 | 99.70 ± 0.29 | **99.68 ± 0.38** | 99.65 ± 0.42 |
+| 500 | 20 × 25 | 99.16 ± 0.46 | 99.30 ± 0.69 | 99.22 ± 0.76 |
+| 500 | 25 × 20 | 98.71 ± 0.74 | 98.79 ± 0.89 | 98.65 ± 0.98 |
+| 500 | 50 × 10 | 97.91 ± 0.96 | 97.91 ± 1.18 | 97.68 ± 1.30 |
+| 2,000 | 10 × 200 | **100.00 ± 0.00** | **100.00 ± 0.00** | **100.00 ± 0.00** |
+| 2,000 | 20 × 100 | 99.90 ± 0.21 | 99.88 ± 0.31 | 99.86 ± 0.34 |
+| 2,000 | 25 × 80 | 99.79 ± 0.21 | **99.90 ± 0.13** | **99.89 ± 0.14** |
+| 2,000 | 50 × 40 | 99.56 ± 0.39 | 99.54 ± 0.59 | 99.49 ± 0.66 |
+
+Within each budget, the smallest swarm with the most generations generally
+performed best. At 500 evaluations, `10 × 50` significantly outperformed
+`50 × 10`; at 2,000 evaluations, `10 × 200` achieved 100% in every run.
+
+### Table 2: PSO coefficients and informants
+
+| Group | Setting | Train accuracy | Test accuracy | Test F1 |
+|-------|---------|---------------:|--------------:|--------:|
+| Baseline | β = γ = 1.496, α = 0.7298, δ = 0 | 99.90 ± 0.21 | 99.88 ± 0.31 | 99.86 ± 0.34 |
+| (β, γ) | (2.244, 0.748) | 99.67 ± 0.29 | 99.66 ± 0.40 | 99.62 ± 0.45 |
+| (β, γ) | (0.748, 2.244) | 99.72 ± 0.29 | **99.88 ± 0.13** | **99.86 ± 0.14** |
+| Inertia | α = 0.4 | **99.94 ± 0.20** | **99.90 ± 0.31** | **99.89 ± 0.34** |
+| Inertia | α = 0.9 | 99.46 ± 0.33 | 99.47 ± 0.73 | 99.41 ± 0.81 |
+| Global | δ = 0.5 | **99.97 ± 0.07** | **99.98 ± 0.08** | **99.97 ± 0.09** |
+| Global | δ = 1.0 | 99.71 ± 0.35 | 99.73 ± 0.33 | 99.70 ± 0.37 |
+| Informants | 1 | 85.67 ± 6.56 | 85.49 ± 7.11 | 83.46 ± 9.21 |
+| Informants | 2 | 99.70 ± 0.32 | 99.73 ± 0.40 | 99.70 ± 0.45 |
+| Informants | 5 | 99.77 ± 0.31 | 99.76 ± 0.34 | 99.73 ± 0.38 |
+| Informants | 10 | 99.70 ± 0.29 | 99.61 ± 0.47 | 99.57 ± 0.53 |
+| Informants | 20 | 99.65 ± 0.29 | 99.59 ± 0.47 | 99.54 ± 0.53 |
+
+The baseline coefficient and α = 0.4 settings were indistinguishable. A single
+informant was substantially worse, while 2-20 informants were not distinguishable
+from the baseline three-informant setting.
+
+### Table 3: Extensions
+
+| Extension | Setting | Train accuracy | Test accuracy | Test F1 |
+|-----------|---------|---------------:|--------------:|--------:|
+| Baseline | Clip, accuracy, fixed ReLU | 99.90 ± 0.21 | **99.88 ± 0.31** | **99.86 ± 0.34** |
+| Boundary | Reflect | 98.93 ± 0.83 | 98.93 ± 1.13 | 98.82 ± 1.23 |
+| Boundary | Random reset | 99.25 ± 0.45 | 99.03 ± 0.41 | 98.91 ± 0.46 |
+| Fitness | Negative MSE | 99.74 ± 0.47 | 99.78 ± 0.46 | 99.76 ± 0.52 |
+| Fitness | Negative BCE | 99.49 ± 0.45 | 99.49 ± 0.53 | 99.43 ± 0.59 |
+| Activation | Particle-selected | 99.75 ± 0.24 | 99.78 ± 0.29 | 99.76 ± 0.32 |
+
+No extension significantly outperformed the baseline. Particle-selected
+activation chose ReLU in six runs and tanh in four runs, never logistic.
+
+### Table 4: Pairwise statistical comparisons
+
+Pairwise differences use two-sided Mann-Whitney U tests, with Holm adjustment
+over 19 comparisons. `pH` is the Holm-adjusted p-value.
+
+| Comparison | Δ train (pp) | pH train | Δ test (pp) | pH test |
+|------------|-------------:|---------:|------------:|--------:|
+| 500 ev.: 10×50 vs 50×10 | +1.79 | **0.004** | +1.77 | **0.018** |
+| 2,000 ev.: 10×200 vs 50×40 | +0.44 | **0.012** | +0.46 | 0.095 |
+| 2,000 ev.: 25×80 vs 20×100 | -0.10 | 1.000 | +0.02 | 1.000 |
+| α = 0.4 vs 0.7298 | +0.04 | 1.000 | +0.02 | 1.000 |
+| α = 0.9 vs 0.7298 | -0.44 | 0.066 | -0.41 | 0.571 |
+| global δ = 0.5 vs 0 | +0.07 | 1.000 | +0.10 | 1.000 |
+| global δ = 1.0 vs 0 | -0.19 | 1.000 | -0.15 | 1.000 |
+| cognitive-heavy vs balanced | -0.23 | 0.665 | -0.22 | 1.000 |
+| informant-heavy vs balanced | -0.18 | 1.000 | +0.00 | 1.000 |
+| reflect vs clip | -0.97 | 0.056 | -0.95 | 0.127 |
+| random reset vs clip | -0.65 | **0.027** | -0.85 | **0.022** |
+| -MSE vs accuracy fitness | -0.16 | 1.000 | -0.10 | 1.000 |
+| -BCE vs accuracy fitness | -0.41 | 0.461 | -0.39 | 0.777 |
+| encoded activation vs fixed ReLU | -0.15 | 1.000 | -0.10 | 1.000 |
+| 1 informant vs 3 | -14.23 | **0.003** | -14.39 | **0.002** |
+| 2 informants vs 3 | -0.20 | 1.000 | -0.15 | 1.000 |
+| 5 informants vs 3 | -0.12 | 1.000 | -0.12 | 1.000 |
+| 10 informants vs 3 | -0.20 | 1.000 | -0.27 | 0.949 |
+| 20 informants vs 3 | -0.25 | 0.665 | -0.29 | 0.949 |
+
 Python 3.10+. Run commands from the repository root.
 
 ## 1. Install
