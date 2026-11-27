@@ -220,6 +220,4 @@ Optional: `--compare SETTING_A SETTING_B [--metric train_accuracy]` adds a Welch
   test confusion matrix, chosen activations), a `.metadata.json` per suite, and
   an `.npz` per run with the best particle and scaler statistics.
 
-## Use of generative AI
 
-See `AI_USAGE.md` and Appendix A of the report.
