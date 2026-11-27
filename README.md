@@ -187,7 +187,7 @@ script refuses to overwrite an existing CSV; pass `--resume` to continue an
 interrupted suite (configs, seeds and dataset must be unchanged), or use
 `--output` to write elsewhere.
 
-## 5. Tables and plots
+## 5. Tables and plots 
 
 ```bash
 python -m analysis.make_tables_plots --csv results/csv/exp1.csv --output results/figures/exp1
