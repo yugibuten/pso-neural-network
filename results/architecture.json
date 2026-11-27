@@ -1,0 +1,28 @@
+{
+  "activations": [
+    "relu",
+    "logistic"
+  ],
+  "alpha": 0.7298,
+  "alpha_end": null,
+  "beta": 1.496,
+  "boundary": "clip",
+  "bounds": [
+    -3.0,
+    3.0
+  ],
+  "delta": 0.0,
+  "encode_activations": false,
+  "epsilon": 1.0,
+  "fitness": "accuracy",
+  "gamma": 1.496,
+  "iterations": 100,
+  "layer_sizes": [
+    4,
+    2,
+    1
+  ],
+  "n_informants": 3,
+  "name": "d1_w2_relu",
+  "swarm_size": 20
+}

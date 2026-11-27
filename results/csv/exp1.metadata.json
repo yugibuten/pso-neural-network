@@ -1,0 +1,2037 @@
+{
+  "split_seed": 42,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "dataset_sha256": "d0539aaed2139ba7a587b3e34fb345ce503ff7d5d33dbf9912d8e195ce425cb9",
+  "configs": [
+    {
+      "layer_sizes": [
+        4,
+        2,
+        1
+      ],
+      "activations": [
+        "tanh",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d1_w2_tanh"
+    },
+    {
+      "layer_sizes": [
+        4,
+        2,
+        1
+      ],
+      "activations": [
+        "logistic",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d1_w2_logistic"
+    },
+    {
+      "layer_sizes": [
+        4,
+        2,
+        1
+      ],
+      "activations": [
+        "relu",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d1_w2_relu"
+    },
+    {
+      "layer_sizes": [
+        4,
+        4,
+        1
+      ],
+      "activations": [
+        "tanh",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d1_w4_tanh"
+    },
+    {
+      "layer_sizes": [
+        4,
+        4,
+        1
+      ],
+      "activations": [
+        "logistic",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d1_w4_logistic"
+    },
+    {
+      "layer_sizes": [
+        4,
+        4,
+        1
+      ],
+      "activations": [
+        "relu",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d1_w4_relu"
+    },
+    {
+      "layer_sizes": [
+        4,
+        8,
+        1
+      ],
+      "activations": [
+        "tanh",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d1_w8_tanh"
+    },
+    {
+      "layer_sizes": [
+        4,
+        8,
+        1
+      ],
+      "activations": [
+        "logistic",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d1_w8_logistic"
+    },
+    {
+      "layer_sizes": [
+        4,
+        8,
+        1
+      ],
+      "activations": [
+        "relu",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d1_w8_relu"
+    },
+    {
+      "layer_sizes": [
+        4,
+        16,
+        1
+      ],
+      "activations": [
+        "tanh",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d1_w16_tanh"
+    },
+    {
+      "layer_sizes": [
+        4,
+        16,
+        1
+      ],
+      "activations": [
+        "logistic",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d1_w16_logistic"
+    },
+    {
+      "layer_sizes": [
+        4,
+        16,
+        1
+      ],
+      "activations": [
+        "relu",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d1_w16_relu"
+    },
+    {
+      "layer_sizes": [
+        4,
+        2,
+        2,
+        1
+      ],
+      "activations": [
+        "tanh",
+        "tanh",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d2_w2_tanh"
+    },
+    {
+      "layer_sizes": [
+        4,
+        2,
+        2,
+        1
+      ],
+      "activations": [
+        "logistic",
+        "logistic",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d2_w2_logistic"
+    },
+    {
+      "layer_sizes": [
+        4,
+        2,
+        2,
+        1
+      ],
+      "activations": [
+        "relu",
+        "relu",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d2_w2_relu"
+    },
+    {
+      "layer_sizes": [
+        4,
+        4,
+        4,
+        1
+      ],
+      "activations": [
+        "tanh",
+        "tanh",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d2_w4_tanh"
+    },
+    {
+      "layer_sizes": [
+        4,
+        4,
+        4,
+        1
+      ],
+      "activations": [
+        "logistic",
+        "logistic",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d2_w4_logistic"
+    },
+    {
+      "layer_sizes": [
+        4,
+        4,
+        4,
+        1
+      ],
+      "activations": [
+        "relu",
+        "relu",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d2_w4_relu"
+    },
+    {
+      "layer_sizes": [
+        4,
+        8,
+        8,
+        1
+      ],
+      "activations": [
+        "tanh",
+        "tanh",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d2_w8_tanh"
+    },
+    {
+      "layer_sizes": [
+        4,
+        8,
+        8,
+        1
+      ],
+      "activations": [
+        "logistic",
+        "logistic",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d2_w8_logistic"
+    },
+    {
+      "layer_sizes": [
+        4,
+        8,
+        8,
+        1
+      ],
+      "activations": [
+        "relu",
+        "relu",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d2_w8_relu"
+    },
+    {
+      "layer_sizes": [
+        4,
+        16,
+        16,
+        1
+      ],
+      "activations": [
+        "tanh",
+        "tanh",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d2_w16_tanh"
+    },
+    {
+      "layer_sizes": [
+        4,
+        16,
+        16,
+        1
+      ],
+      "activations": [
+        "logistic",
+        "logistic",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d2_w16_logistic"
+    },
+    {
+      "layer_sizes": [
+        4,
+        16,
+        16,
+        1
+      ],
+      "activations": [
+        "relu",
+        "relu",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d2_w16_relu"
+    },
+    {
+      "layer_sizes": [
+        4,
+        2,
+        2,
+        2,
+        1
+      ],
+      "activations": [
+        "tanh",
+        "tanh",
+        "tanh",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d3_w2_tanh"
+    },
+    {
+      "layer_sizes": [
+        4,
+        2,
+        2,
+        2,
+        1
+      ],
+      "activations": [
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d3_w2_logistic"
+    },
+    {
+      "layer_sizes": [
+        4,
+        2,
+        2,
+        2,
+        1
+      ],
+      "activations": [
+        "relu",
+        "relu",
+        "relu",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d3_w2_relu"
+    },
+    {
+      "layer_sizes": [
+        4,
+        4,
+        4,
+        4,
+        1
+      ],
+      "activations": [
+        "tanh",
+        "tanh",
+        "tanh",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d3_w4_tanh"
+    },
+    {
+      "layer_sizes": [
+        4,
+        4,
+        4,
+        4,
+        1
+      ],
+      "activations": [
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d3_w4_logistic"
+    },
+    {
+      "layer_sizes": [
+        4,
+        4,
+        4,
+        4,
+        1
+      ],
+      "activations": [
+        "relu",
+        "relu",
+        "relu",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d3_w4_relu"
+    },
+    {
+      "layer_sizes": [
+        4,
+        8,
+        8,
+        8,
+        1
+      ],
+      "activations": [
+        "tanh",
+        "tanh",
+        "tanh",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d3_w8_tanh"
+    },
+    {
+      "layer_sizes": [
+        4,
+        8,
+        8,
+        8,
+        1
+      ],
+      "activations": [
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d3_w8_logistic"
+    },
+    {
+      "layer_sizes": [
+        4,
+        8,
+        8,
+        8,
+        1
+      ],
+      "activations": [
+        "relu",
+        "relu",
+        "relu",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d3_w8_relu"
+    },
+    {
+      "layer_sizes": [
+        4,
+        16,
+        16,
+        16,
+        1
+      ],
+      "activations": [
+        "tanh",
+        "tanh",
+        "tanh",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d3_w16_tanh"
+    },
+    {
+      "layer_sizes": [
+        4,
+        16,
+        16,
+        16,
+        1
+      ],
+      "activations": [
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d3_w16_logistic"
+    },
+    {
+      "layer_sizes": [
+        4,
+        16,
+        16,
+        16,
+        1
+      ],
+      "activations": [
+        "relu",
+        "relu",
+        "relu",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d3_w16_relu"
+    },
+    {
+      "layer_sizes": [
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "activations": [
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d5_w2_tanh"
+    },
+    {
+      "layer_sizes": [
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "activations": [
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d5_w2_logistic"
+    },
+    {
+      "layer_sizes": [
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "activations": [
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d5_w2_relu"
+    },
+    {
+      "layer_sizes": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        1
+      ],
+      "activations": [
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d5_w4_tanh"
+    },
+    {
+      "layer_sizes": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        1
+      ],
+      "activations": [
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d5_w4_logistic"
+    },
+    {
+      "layer_sizes": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        1
+      ],
+      "activations": [
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d5_w4_relu"
+    },
+    {
+      "layer_sizes": [
+        4,
+        8,
+        8,
+        8,
+        8,
+        8,
+        1
+      ],
+      "activations": [
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d5_w8_tanh"
+    },
+    {
+      "layer_sizes": [
+        4,
+        8,
+        8,
+        8,
+        8,
+        8,
+        1
+      ],
+      "activations": [
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d5_w8_logistic"
+    },
+    {
+      "layer_sizes": [
+        4,
+        8,
+        8,
+        8,
+        8,
+        8,
+        1
+      ],
+      "activations": [
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d5_w8_relu"
+    },
+    {
+      "layer_sizes": [
+        4,
+        16,
+        16,
+        16,
+        16,
+        16,
+        1
+      ],
+      "activations": [
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d5_w16_tanh"
+    },
+    {
+      "layer_sizes": [
+        4,
+        16,
+        16,
+        16,
+        16,
+        16,
+        1
+      ],
+      "activations": [
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d5_w16_logistic"
+    },
+    {
+      "layer_sizes": [
+        4,
+        16,
+        16,
+        16,
+        16,
+        16,
+        1
+      ],
+      "activations": [
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d5_w16_relu"
+    },
+    {
+      "layer_sizes": [
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "activations": [
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d8_w2_tanh"
+    },
+    {
+      "layer_sizes": [
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "activations": [
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d8_w2_logistic"
+    },
+    {
+      "layer_sizes": [
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "activations": [
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d8_w2_relu"
+    },
+    {
+      "layer_sizes": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        1
+      ],
+      "activations": [
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d8_w4_tanh"
+    },
+    {
+      "layer_sizes": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        1
+      ],
+      "activations": [
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d8_w4_logistic"
+    },
+    {
+      "layer_sizes": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        1
+      ],
+      "activations": [
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d8_w4_relu"
+    },
+    {
+      "layer_sizes": [
+        4,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        1
+      ],
+      "activations": [
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d8_w8_tanh"
+    },
+    {
+      "layer_sizes": [
+        4,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        1
+      ],
+      "activations": [
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d8_w8_logistic"
+    },
+    {
+      "layer_sizes": [
+        4,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        1
+      ],
+      "activations": [
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d8_w8_relu"
+    },
+    {
+      "layer_sizes": [
+        4,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        1
+      ],
+      "activations": [
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "tanh",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d8_w16_tanh"
+    },
+    {
+      "layer_sizes": [
+        4,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        1
+      ],
+      "activations": [
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d8_w16_logistic"
+    },
+    {
+      "layer_sizes": [
+        4,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        1
+      ],
+      "activations": [
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "relu",
+        "logistic"
+      ],
+      "swarm_size": 20,
+      "iterations": 100,
+      "alpha": 0.7298,
+      "beta": 1.496,
+      "gamma": 1.496,
+      "delta": 0.0,
+      "epsilon": 1.0,
+      "n_informants": 3,
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "boundary": "clip",
+      "alpha_end": null,
+      "fitness": "accuracy",
+      "encode_activations": false,
+      "name": "d8_w16_relu"
+    }
+  ],
+  "iteration_definition": "assessed generations including initial swarm"
+}

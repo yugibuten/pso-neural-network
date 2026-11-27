@@ -1,0 +1,245 @@
+{
+  "split_seed": 42,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "dataset_sha256": "d0539aaed2139ba7a587b3e34fb345ce503ff7d5d33dbf9912d8e195ce425cb9",
+  "configs": [
+    {
+      "activations": [
+        "relu",
+        "logistic"
+      ],
+      "alpha": 0.7298,
+      "alpha_end": null,
+      "beta": 1.496,
+      "boundary": "clip",
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "delta": 0.0,
+      "encode_activations": false,
+      "epsilon": 1.0,
+      "fitness": "accuracy",
+      "gamma": 1.496,
+      "iterations": 100,
+      "layer_sizes": [
+        4,
+        2,
+        1
+      ],
+      "n_informants": 3,
+      "name": "boundary_clip",
+      "swarm_size": 20
+    },
+    {
+      "activations": [
+        "relu",
+        "logistic"
+      ],
+      "alpha": 0.7298,
+      "alpha_end": null,
+      "beta": 1.496,
+      "boundary": "reflect",
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "delta": 0.0,
+      "encode_activations": false,
+      "epsilon": 1.0,
+      "fitness": "accuracy",
+      "gamma": 1.496,
+      "iterations": 100,
+      "layer_sizes": [
+        4,
+        2,
+        1
+      ],
+      "n_informants": 3,
+      "name": "boundary_reflect",
+      "swarm_size": 20
+    },
+    {
+      "activations": [
+        "relu",
+        "logistic"
+      ],
+      "alpha": 0.7298,
+      "alpha_end": null,
+      "beta": 1.496,
+      "boundary": "reset",
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "delta": 0.0,
+      "encode_activations": false,
+      "epsilon": 1.0,
+      "fitness": "accuracy",
+      "gamma": 1.496,
+      "iterations": 100,
+      "layer_sizes": [
+        4,
+        2,
+        1
+      ],
+      "n_informants": 3,
+      "name": "boundary_reset",
+      "swarm_size": 20
+    },
+    {
+      "activations": [
+        "relu",
+        "logistic"
+      ],
+      "alpha": 0.7298,
+      "alpha_end": null,
+      "beta": 1.496,
+      "boundary": "clip",
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "delta": 0.0,
+      "encode_activations": false,
+      "epsilon": 1.0,
+      "fitness": "accuracy",
+      "gamma": 1.496,
+      "iterations": 100,
+      "layer_sizes": [
+        4,
+        2,
+        1
+      ],
+      "n_informants": 3,
+      "name": "fitness_accuracy",
+      "swarm_size": 20
+    },
+    {
+      "activations": [
+        "relu",
+        "logistic"
+      ],
+      "alpha": 0.7298,
+      "alpha_end": null,
+      "beta": 1.496,
+      "boundary": "clip",
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "delta": 0.0,
+      "encode_activations": false,
+      "epsilon": 1.0,
+      "fitness": "mse",
+      "gamma": 1.496,
+      "iterations": 100,
+      "layer_sizes": [
+        4,
+        2,
+        1
+      ],
+      "n_informants": 3,
+      "name": "fitness_mse",
+      "swarm_size": 20
+    },
+    {
+      "activations": [
+        "relu",
+        "logistic"
+      ],
+      "alpha": 0.7298,
+      "alpha_end": null,
+      "beta": 1.496,
+      "boundary": "clip",
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "delta": 0.0,
+      "encode_activations": false,
+      "epsilon": 1.0,
+      "fitness": "bce",
+      "gamma": 1.496,
+      "iterations": 100,
+      "layer_sizes": [
+        4,
+        2,
+        1
+      ],
+      "n_informants": 3,
+      "name": "fitness_bce",
+      "swarm_size": 20
+    },
+    {
+      "activations": [
+        "relu",
+        "logistic"
+      ],
+      "alpha": 0.7298,
+      "alpha_end": null,
+      "beta": 1.496,
+      "boundary": "clip",
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "delta": 0.0,
+      "encode_activations": false,
+      "epsilon": 1.0,
+      "fitness": "accuracy",
+      "gamma": 1.496,
+      "iterations": 100,
+      "layer_sizes": [
+        4,
+        2,
+        1
+      ],
+      "n_informants": 3,
+      "name": "activation_False",
+      "swarm_size": 20
+    },
+    {
+      "activations": [
+        "relu",
+        "logistic"
+      ],
+      "alpha": 0.7298,
+      "alpha_end": null,
+      "beta": 1.496,
+      "boundary": "clip",
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "delta": 0.0,
+      "encode_activations": true,
+      "epsilon": 1.0,
+      "fitness": "accuracy",
+      "gamma": 1.496,
+      "iterations": 100,
+      "layer_sizes": [
+        4,
+        2,
+        1
+      ],
+      "n_informants": 3,
+      "name": "activation_True",
+      "swarm_size": 20
+    }
+  ],
+  "iteration_definition": "assessed generations including initial swarm"
+}
